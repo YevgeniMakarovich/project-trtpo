@@ -333,7 +333,31 @@ namespace ITsearch.Controllers
             base.Dispose(disposing);
         }
 
-#region Вспомогательные приложения
+
+        [HttpGet]
+        public ActionResult Resume()
+        {
+            return View();
+        }
+
+
+        [HttpPost]
+        public string PostResume()
+        {  
+            string name = Request.Form["name"];
+            string secondname = Request.Form["secondname"];
+            string language = Request.Form["language"];
+            int work = Int32.Parse(Request.Form["work"]);
+            int money =Int32.Parse(Request.Form["money"]);
+            Information(name, secondname, language, work, money);
+            return "Резюме созданно";
+        }
+       
+        protected string Information(string name,string secondname ,string language, int work,int money)
+        {
+            return name + "    " + secondname + "    " + language + "    " + work + "    " + money;
+        }
+        #region Вспомогательные приложения
         // Используется для защиты от XSRF-атак при добавлении внешних имен входа
         private const string XsrfKey = "XsrfId";
 

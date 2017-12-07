@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Resume";
+}
+
+<div>
+    <h3>Форма создания Резюме</h3>
+    <form method="post" action="PostResume" >
+        <table>
+            <tr>
+                <td><p>Введите своё имя</p></td>
+                <td><input type="text" name="name"/></td>
+            </tr>
+            <tr>
+                <td><p>Введите свою фамилию</p></td>
+                <td><input type="text" name="secondname"/></td>
+            </tr>
+            <tr>
+                <td><p>Какой язык программирования вам нужен</p></td>
+                <td><input type="text" name="language" /></td>
+            </tr>
+            <tr>
+                <td><p>Опыт работы</p></td>
+                <td><input type="text" name="work" /></td>
+            </tr>
+            <tr>
+                <td><p>Минимальная зарплата</p></td>
+                <td><input type="text" name="money" /></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Отправить"/></td>
+            </tr>
+        </table>
+    </form>
+</div>
