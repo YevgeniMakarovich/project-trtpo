@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Work";
+}
+
+
+<div>
+    <h3>Форма создания Вакансии на работу</h3>
+    <form method="post" action="PostWork">
+        <table>
+            <tr>
+                <td><p>Введите название компании</p></td>
+                <td><input type="text" name="namework" /></td>
+            </tr>
+            <tr>
+                <td><p>Какой язык программирования Нам нужен</p></td>
+                <td><input type="text" name="languagework" /></td>
+            </tr>
+            <tr>
+                <td><p>Необходимый опыт работы</p></td>
+                <td><input type="text" name="experiencework" /></td>
+            </tr>
+            <tr>
+                <td><p>Зарплата от</p></td>
+                <td><input type="text" name="moneywork" /></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Отправить" /></td>
+            </tr>
+        </table>
+    </form>
+</div>

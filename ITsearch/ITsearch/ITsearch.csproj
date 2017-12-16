@@ -260,6 +260,9 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Manage\Resume.cshtml" />
     <Content Include="Views\Manage\SetResume.cshtml" />
+    <Content Include="Views\Manage\PostResume.cshtml" />
+    <Content Include="Views\Manage\Work.cshtml" />
+    <Content Include="Views\Manage\PostWork.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

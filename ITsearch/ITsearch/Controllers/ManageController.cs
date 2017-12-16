@@ -342,17 +342,32 @@ namespace ITsearch.Controllers
 
 
         [HttpPost]
-        public string PostResume()
-        {  
-            string name = Request.Form["name"];
-            string secondname = Request.Form["secondname"];
-            string language = Request.Form["language"];
-            int work = Int32.Parse(Request.Form["work"]);
-            int money =Int32.Parse(Request.Form["money"]);
-            Information(name, secondname, language, work, money);
-            return "Резюме созданно";
+        public ActionResult PostResume()
+        {
+            ViewBag.Name = Request.Form["name"];
+            ViewBag.secondname = Request.Form["secondname"];
+            ViewBag.language = Request.Form["language"];
+            ViewBag.work = Int32.Parse(Request.Form["work"]);
+            ViewBag.money = Int32.Parse(Request.Form["money"]);
+            return View();
         }
-       
+
+        [HttpGet]
+        public ActionResult Work()
+        {
+            return View();
+        }
+        
+        [HttpPost]
+        public ActionResult PostWork()
+        {
+            ViewBag.Namework = Request.Form["namework"];
+            ViewBag.Languagework = Request.Form["languagework"];
+            ViewBag.Experiencework = Int32.Parse(Request.Form["experiencework"]);
+            ViewBag.Moneywork = Int32.Parse(Request.Form["moneywork"]);
+            return View();
+        }
+        
         protected string Information(string name,string secondname ,string language, int work,int money)
         {
             return name + "    " + secondname + "    " + language + "    " + work + "    " + money;
