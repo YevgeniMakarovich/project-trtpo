@@ -1,13 +1,13 @@
 Этот проект разрабатывается по мере прохождения курса «Технологии разработки и тестирования программного обеспечения»
 
-### [Requirments](https://makhunov.github.io/project-trtpo/Documents/requrements)
+## [Requirments](https://makhunov.github.io/project-trtpo/Documents/requrements)
 
-### UML Diagrams: 
-#### 1) [Use Case](https://makhunov.github.io/project-trtpo/diagrams/Use%20Case.png)
-#### 2) [Class Diagram](https://makhunov.github.io/project-trtpo/diagrams/class%20diagram.png)
-#### 3) [Deployment](https://makhunov.github.io/project-trtpo/diagrams/Deployment.png)
-#### 4) Activity Diagram:
-#####     1) [Search](https://makhunov.github.io/project-trtpo/diagrams/activity/Search.png)
+## UML Diagrams: 
+### 1) [Use Case](https://makhunov.github.io/project-trtpo/diagrams/Use%20Case.png)
+### 2) [Class Diagram](https://makhunov.github.io/project-trtpo/diagrams/class%20diagram.png)
+### 3) [Deployment](https://makhunov.github.io/project-trtpo/diagrams/Deployment.png)
+### 4) Activity Diagram:
+##### 1) [Search](https://makhunov.github.io/project-trtpo/diagrams/activity/Search.png)
 ##### 2) [Authorization](https://makhunov.github.io/project-trtpo/diagrams/activity/authorization.png)
 ##### 3) [Registration](https://makhunov.github.io/project-trtpo/diagrams/activity/registration.png)
 ##### 4) [Resume](https://makhunov.github.io/project-trtpo/diagrams/activity/resume.png)
