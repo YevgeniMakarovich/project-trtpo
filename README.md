@@ -22,6 +22,8 @@
 ## Other documents:
 ### 1. [Glossary](https://makhunov.github.io/project-trtpo/Documents/Glossary)
 ### 2. [Flow Of Events](https://makhunov.github.io/project-trtpo/Documents/flow%20of%20events)
-
+## Testing plan:
+### 1. [Requirements for testing](https://makhunov.github.io/project-trtpo/test/Требования%20к%20тестированию)
+### 2. [Test results](https://makhunov.github.io/project-trtpo/test/Результаты%20тестирования)
 
   
