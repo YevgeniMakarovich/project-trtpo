@@ -20,8 +20,8 @@
 ##### 3. [Create Resume](https://makhunov.github.io/project-trtpo/diagrams/sequence/создание%20резюме.png)
 ##### 4. [Create Vacancy](https://makhunov.github.io/project-trtpo/diagrams/sequence/создать%20вакансию.png)
 ## Other documents:
-##### 1. [Glossary](https://makhunov.github.io/project-trtpo/Documents/Glossary)
-##### 2. [Flow Of Events](https://makhunov.github.io/project-trtpo/Documents/flow%20of%20events)
+### 1. [Glossary](https://makhunov.github.io/project-trtpo/Documents/Glossary)
+### 2. [Flow Of Events](https://makhunov.github.io/project-trtpo/Documents/flow%20of%20events)
 
 
   
