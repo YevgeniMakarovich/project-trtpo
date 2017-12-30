@@ -4,6 +4,6 @@
 
 ### UML Diagrams: 
 #### 1) [Use Case](https://makhunov.github.io/project-trtpo/diagrams/Use%20Case)
-#### 2) [class diagram](https://makhunov.github.io/project-trtpo/diagrams/class diagram)
+#### 2) [class diagram](https://makhunov.github.io/project-trtpo/diagrams/class%20diagram)
 
   
