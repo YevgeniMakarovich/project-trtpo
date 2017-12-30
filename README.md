@@ -14,6 +14,10 @@
 ##### 5) [Search for a job seeker](https://makhunov.github.io/project-trtpo/diagrams/activity/search%20for%20a%20job%20seeker.png)
 ##### 6) [Search for employer](https://makhunov.github.io/project-trtpo/diagrams/activity/search%20for%20employer.png)
 ##### 7) [Vacancy](https://makhunov.github.io/project-trtpo/diagrams/activity/vacancy.png)
-
+### 5) Sequence:
+##### 1) [Authorization](https://makhunov.github.io/project-trtpo/diagrams/sequence/авторизация.png)
+##### 1) [Registration](https://makhunov.github.io/project-trtpo/diagrams/sequence/регистрация.png)
+##### 1) [Create Resume](https://makhunov.github.io/project-trtpo/diagrams/sequence/создание%20резюме.png)
+##### 1) [Create Vacancy](https://makhunov.github.io/project-trtpo/diagrams/sequence/создать%20вакансию.png)
 
   
